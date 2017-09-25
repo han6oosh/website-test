@@ -1,0 +1,428 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*end reset*/
+
+body {
+    background-color: darkgray;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.main-ul {
+    background-color: white;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0 auto;
+    overflow: hidden;
+    /*width: 500px;*/
+}
+
+.li2 {
+    float: left;
+    border-right: 0.2px inset;
+}
+
+.first-menuItem {
+    font-weight: bold;
+    border-right: 1px solid #bbb;
+    float: left;
+    border-right: 0.2px inset;
+}
+
+li a {
+    display: block;
+    padding: 20px;
+    background-color: white;
+    font-size: 100%;
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: #553a3a;
+
+}
+
+li a:hover {
+    background-color: silver;
+}
+
+.sidebar {
+    float: left;
+    width: 29%;
+    margin-top: 0.8%;
+
+}
+
+.parent {
+    float: right;
+    width: 70%;
+    /*padding-top: 50px;*/
+    margin-top: 40px;
+    /*background-color: white;*/
+}
+
+
+
+.first-divider {
+    border: 1px solid #c0c0c0;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.content {
+    background-color: #ffffff;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.list-item-header {
+    width: 68%;
+    padding: 3%;
+    float: left;
+    border-right: 1px solid #c0c0c0;
+
+}
+
+.list-item hr {
+    margin-top: 0;
+
+}
+
+.list-item-meta {
+    width: 25%;
+    float: right;
+    font-size: 80%;
+
+}
+
+.paragraph {
+    font-size: 70%;
+    padding-left: 3.5%;
+}
+
+.first-logo {
+    float: right;
+    width: 25%;
+    padding-top: 17%;
+    padding-right: 18%;
+
+}
+
+.date {
+    padding-top: 5%;
+}
+
+.under-date {
+    padding-top: 15%;
+
+}
+
+.photo-info {
+    padding: 5% 5% 0 9%;
+    font-size: 90%;
+    text-transform: lowercase;
+    color: #656565;
+    font-weight: bolder;
+}
+
+.img {
+    width: 98%;
+    padding-bottom: 5%;
+    margin-left: -3.8%;
+}
+
+.continueread-button {
+    background-color: white;
+    color: black;
+    border: 2px solid #c0c0c0;
+    padding: 1% 2% 1% 2%;
+    font-size: 70%;
+    margin: 2% 0 10% 9%;
+
+}
+
+.last {
+    color: #c0c0c0;
+    float: right;
+    padding: 0 10% 10% 10%;
+    margin: 5% 5% 5% 5%;
+}
+
+/*.pagination {*/
+    /*margin: 50% 20% 10% 0;*/
+    /*padding: 5% 5% 0% 0%;*/
+/*}*/
+
+.image {
+    width: 25%;
+    margin: 5% 0% 0% 15%;
+    padding-top: 4%;
+}
+
+.h1 {
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 200%;
+    margin: 4% 0% 0% 14%;
+
+}
+
+.first-paragraph {
+    font-weight: bold;
+    font-size: 150%;
+    padding-left: 3.5%;
+}
+
+.h4 {
+    font-size: 90%;
+    margin: 5% 0% 0% 14.5%;
+
+}
+
+.header-divider {
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 30px;
+    width: 368px;
+}
+
+.photo-of-list-photo {
+    padding: 30px 30px 0px 50px;
+}
+
+.info-of-photo {
+    width: 100px;
+    margin-left: 50px;
+    padding-right: 200px;
+    background-color: #ffffff;
+}
+
+.h2 {
+    padding: 15px 0px 0px 10px;
+    width: 200px;
+}
+
+.h3 {
+    font-size: 10px;
+    padding: 5px 0px 10px 10px;
+
+}
+
+.list-of-small-pic {
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 40px;
+    width: 368px;
+}
+
+.photo {
+    width: 260px;
+    padding: 40px 0px 0px 50px;
+    width: 75px;
+    height: 70px;
+}
+
+.info {
+    width: 250px;
+    font-size: 13px;
+    margin-left: 140px;
+    margin-top: -70px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.meta {
+    margin: 15px 0px 0px 140px;
+    font-size: 10px;
+}
+
+.divide {
+
+    border-bottom: 1px solid #c0c0c0;
+    width: 300px;
+    margin: 45px 0px 0px 50px;
+
+}
+
+.last-info {
+    padding: 40px 0px 0px 50px;
+}
+
+.after-about {
+    font-size: 12px;
+    text-transform: lowercase;
+    padding: 25px 0px 0px 50px;
+    font-weight: bold;
+}
+
+.learn-more {
+    background-color: darkgray;
+    color: black;
+    border: 2px solid #bbbbbb;
+    float: left;
+    padding: 10px 17px 10px 17px;
+    font-size: 12px;
+    margin: 40px 0px 0px 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.last-divider {
+    border-bottom: 1px solid #bbbbbb;
+    width: 300px;
+    margin: 200px 0px 0px 40px;
+}
+
+.icon {
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: silver;
+}
+
+.fa {
+    padding-right: 15px;
+}
+
+.pagination {
+    padding: 50px 20px 0px 0px;
+    margin: 0px 0px 50px 50px;
+}
+
+.prev {
+    background-color: darkgray;
+    color: #c0c0c0;
+    border: 2px solid #bbbbbb;
+    padding: 17px 50px 17px 50px;
+    font-size: 15px;
+    margin: 0px 0px 20px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.next {
+    background-color: darkgray;
+    color: black;
+    border: 2px solid #bbbbbb;
+    padding: 17px 50px 17px 50px;
+    font-size: 15px;
+    margin: 0px 0px 20px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.fa {
+    padding-left: 10px;
+    color: silver;
+}
+
+.copyright {
+    color: #c0c0c0;
+    padding: 100px 0px 0px 20px;
+    font-size: 10px;
+    margin: 0px 0px 0px 35px;
+}
+
+@media only screen and (min-width: 320px)  {
+
+    body {
+        margin-right: 0;
+
+    }
+
+    .parent {
+        margin-right: 0;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .list-item {
+        height: 160px;
+    }
+
+    nav {
+        padding-right: 0;
+    }
+
+    ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .content {
+        width: 100%;
+        float: right;
+        margin-top: 1.5%;
+        margin-right: 0;
+        font-size: 100%;
+
+    }
+
+
+    .sidebar {
+        width: 93%;
+        float: right;
+       margin: 1% 1.5% 1% 0%;
+
+    }
+
+    .photo-of-list-photo .info-of-photo{
+        width: 70%;
+
+    }
+    .header{
+        width:25% ;
+    }
+
+}
