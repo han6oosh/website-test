@@ -93,10 +93,10 @@ li a:hover {
 }
 
 .sidebar {
-    float: left;
-    width: 29%;
+    /*float: left;*/
+    width: 25%;
     margin-top: 0.8%;
-
+padding-bottom: 0px;
 }
 
 .parent {
@@ -116,7 +116,9 @@ li a:hover {
 }
 
 .content {
+    width: 70%;
     background-color: #ffffff;
+float: right;
 }
 
 .clearfix {
@@ -196,15 +198,15 @@ li a:hover {
     margin: 5% 5% 5% 5%;
 }
 
-/*.pagination {*/
-    /*margin: 50% 20% 10% 0;*/
-    /*padding: 5% 5% 0% 0%;*/
-/*}*/
+.pagination {
+    margin: 50% 20% 10% 0;
+    padding: 5% 5% 0% 0%;
+}
 
 .image {
     width: 25%;
     margin: 5% 0% 0% 15%;
-    padding-top: 4%;
+    padding-top: 12%;
 }
 
 .h1 {
@@ -235,12 +237,13 @@ li a:hover {
 
 .photo-of-list-photo {
     padding: 30px 30px 0px 50px;
+    width: 73%;
 }
 
 .info-of-photo {
-    width: 100px;
+    width: 30%;
     margin-left: 50px;
-    padding-right: 200px;
+    padding-right: 150px;
     background-color: #ffffff;
 }
 
@@ -299,6 +302,7 @@ li a:hover {
     text-transform: lowercase;
     padding: 25px 0px 0px 50px;
     font-weight: bold;
+    width: 70%;
 }
 
 .learn-more {
@@ -313,6 +317,7 @@ li a:hover {
     font-weight: bold;
 
 }
+
 
 .last-divider {
     border-bottom: 1px solid #bbbbbb;
@@ -378,7 +383,7 @@ li a:hover {
     }
 
     .parent {
-        margin-right: 0;
+    margin: 0 ;
     }
 
     .img {
@@ -402,7 +407,7 @@ li a:hover {
 
     .content {
         width: 100%;
-        float: right;
+        /*float: right;*/
         margin-top: 1.5%;
         margin-right: 0;
         font-size: 100%;
@@ -411,18 +416,20 @@ li a:hover {
 
 
     .sidebar {
-        width: 93%;
-        float: right;
+        width: 25%;
        margin: 1% 1.5% 1% 0%;
+        /*margin: 100% 100% 100% 100%;*/
 
     }
 
     .photo-of-list-photo .info-of-photo{
-        width: 70%;
-
+        width: 100%;
     }
     .header{
-        width:25% ;
+        width:100% ;
     }
+.image{
+    width: 50%;
+}
 
 }
